@@ -1,0 +1,34 @@
+body{
+	padding:0;
+	margin:0;
+	box-sizing:boder box;
+}
+
+img{
+	width:150px;
+	height:80px;
+}
+
+.container{
+	background-color: #bbbec4;
+	height:auto;
+	display:flex;
+	padding:20px;
+	justify-content:space-between;
+}
+
+
+.menu{
+	display:flex;
+	
+}
+
+.menu a{
+	padding:30px;
+	text-decoration:none;
+}
+
+.menu a:hover {
+	background: blue;
+	color: yellow;
+}
