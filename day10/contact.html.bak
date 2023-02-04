@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Contact</title>
+	</head>
+	<body>
+		<img src="img/Add a heading.png" style="width:100%;height:500px">
+		<hr/>
+		<a href="index.html">Home</a> |
+		<a href="about.html" target="_blank">About</a> |
+		<a href="service.html" target="_blank">Services</a> |
+		<a href="blog.html" target="_blank">Blogs</a> |
+		<a href="contact.html" target="_blank">Contact</a> |
+	</body>
+	<hr/>
+	<h1>Contact</h1>
+	<hr/>
+	
+	<table border="2" width="100%" cellspacing="0" cellpadding="15">
+		<tr>
+			<th colspan="7">Information</th>
+			
+		</tr>
+		<tr>
+			<th colspan="3">Student</th>
+		
+			<th colspan="4">Teacher</th>
+			
+			
+		</tr>
+		<tr>
+			<th>Id</th>
+			<th>Name</th>
+			<th>Roll</th>
+			<th>Id</th>
+			<th>Name</th>
+			<th>Email</th>
+			<th>Dept</th>
+		</tr>
+		<tr>
+			<td>4321</td>
+			<td>Faisal</td>
+			<td>884</td>
+			<td>4322</td>
+			<td>Rashed</td>
+			<td>Rashed@gmail.com</td>
+			<td>CSE</td>
+		</tr>
+		<tr>
+			<td>4323</td>
+			<td>mahmud</td>
+			<td>885</td>
+			<td>4326</td>
+			<td>Hasan</td>
+			<td>Hasan@gmail.com</td>
+			<td>CSE</td>
+		</tr>
+		<tr>
+			<td>4323</td>
+			<td rowspan="5">mahmud</td>
+			<td>885</td>
+			<td rowspan="4">4326</td>
+			<td>Hasan</td>
+			<td>Hasan@gmail.com</td>
+			<td>CSE</td>
+		</tr>
+		<tr>
+			<td>4323</td>
+			
+			<td>4326</td>
+			<td>Hasan</td>
+			<td>Hasan@gmail.com</td>
+			<td>CSE</td>
+		</tr>
+		<tr>
+			<td>4323</td>
+			
+			<td>4326</td>
+			<td>Hasan</td>
+			<td>Hasan@gmail.com</td>
+			<td>CSE</td>
+		</tr>
+		<tr>
+			<td>4323</td>
+
+			
+			<td>4326</td>
+			<td>Hasan</td>
+			<td>Hasan@gmail.com</td>
+			<td>CSE</td>
+		</tr>
+		<tr>
+			<td>4323</td>
+		
+			
+		</tr>
+	</table>
+
+</html>

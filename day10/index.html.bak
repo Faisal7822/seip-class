@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Home</title>
+	</head>
+	<body>
+		<img src="img/Add a heading.png" style="width:100%;height:500px">
+		<hr/>
+		<a href="index.html">Home</a> |
+		<a href="about.html">About</a> |
+		<a href="service.html">Services</a> |
+		<a href="blog.html">Blogs</a> |
+		<a href="contact.html">Contact</a> |
+		<hr/>
+	</body>
+</html>
