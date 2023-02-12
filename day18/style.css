@@ -1,0 +1,94 @@
+@font-face{
+	src: url(font/MontBlancTrialBlack.ttf);
+	font-family:MontBlancTrialBlack
+}
+
+body{
+	padding:0;
+	margin:0;
+	box-sizing:border box;
+	background:rgb(227, 207, 23,.3);
+	font-family:MontBlancTrialBlack;
+}
+
+.head{
+	width:100%;
+	background:#FCC524;
+	display:flex;
+	padding:20px;
+	justify-content: space between;
+}
+
+.logo{
+	display:inline-block;
+	padding:50px;
+	margin-right:30px;
+	font-size:50px;
+}
+
+.menu{
+	width:100%;
+	display:inline-block;
+	padding:70px;
+	margin-left:200px;
+}
+
+.menu a{
+	display:flax;
+	text-decoration:none;
+	text-align: center;
+	padding:20px;
+	font-size:20px;
+}
+
+.h1{
+	text-align:center;
+	color:rgb(227, 23, 98,.5);
+	text-decoration:underline;
+	text-shadow:
+	
+}
+
+.paragraph{
+	text-align:center;
+	font-family: sanse serif;
+	color:#FCC524;
+	font-weight:bolder;
+	font-size:18px;
+	line-height:30px;
+	margin:0 auto;
+	padding:20px;
+	box-shadow:5px 7px 9px black;
+}
+
+.for-l{
+	font-size: 20px;
+	font-weight:600;
+	font-size:70px;
+	color:rgb(81, 207, 175);
+}
+
+.services{
+	width:100%;
+	display:flex;
+	border:2px solid black;
+	justify-content:space-between;
+}
+
+.education{
+	width:25%;
+	display:flex;
+	justify-content:space-between;
+}
+
+.experiace{
+	width:25%;
+	display:flex;
+	justify-content:space-between;
+}
+
+li{
+	list-style:outside url(img/Logo.png);
+	font-size:15px;
+	color:black;
+}
