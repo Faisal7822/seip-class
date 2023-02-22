@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+/*--nav section start--*/
+.row {
+    display: flex;
+}
+
+.logo {
+    font-family: "Playfair Display", "Segoe UI", "Helvetica Neue", Arial;
+    font-size: 20px;
+    font-weight: 700;
+    Color: rgba(0, 0, 0, 0.9);
+    display: inline-block;
+    margin: 10px 80px;
+}
+
+.menu ul {
+    display: flex;
+    padding: 10px;
+    margin: 0px 15px;
+    font-family:"Source Sans Pro", "Segoe UI", "Helvetica Neue", "Arial"; 
+    font-size: 15px;
+    box-sizing: border-box;
+    
+}
+
+.docs a{
+    font-family:"Source Sans Pro", "Segoe UI", "Helvetica Neue", "Arial";
+    font-size: 15px;
+    color:#ffffff ;
+    background: #7732E0;
+    border-radius: 5px;
+    text-decoration: none;
+    padding:3px 5px ;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.nav-btn a{
+    display: inline-block;
+    margin: 5px 90px;
+    padding: 10px 20px;
+    font-family:"Source Sans Pro", "Segoe UI", "Helvetica Neue", "Arial";
+    font-size: 15px;
+    color:#ffffff ;
+    background: #03A87C;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+/*--nav section end--*/
+/*--banner section start--*/
+
+section{
+    width: 100%;
+    display: flex;
+    margin: 20px 80px;
+}
+
+.section-contant{
+    width: 40%;
+    background:#E8F3EC;
+    display: inline-block;
+    padding: 20px 10px;
+    margin-left: 20px;
+}
+
+.section-contant h1{
+    font-family:"Playfair Display", "Segoe UI", "Helvetica Neue", "Arial";
+    font-size: 44px;
+    color: #212529;
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+
+.section-contant p{
+    font-family:"Source Sans Pro", "Segoe UI", "Helvetica Neue", "Arial";
+    font-size: 18px;
+    color: #212529;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px 10px;
+}
+
+.section-contant a{
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    color:#ffffff ;
+    background:#101214 ;
+    display: inline-block;
+    padding: 5px 15px;
+    margin: 5px 15px;
+    border-radius: 10px;
+}
+/*--banner section end--*/
+/*--article section start--*/
+
+.section-article{
+    width: 100%;
+    display: flex;
+    margin: 20px 80px;
+}
+
+.article{
+    width: 50%;
+    margin: 10px 0px;
+    box-sizing: border-box;
+    
+}
+
+.article h2{
+    font-family:"Source Sans Pro", "Segoe UI", "Helvetica Neue", "Arial";
+    font-size: 24px;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px 10px;
+}
+
+.article p{
+    font-family:"Source Sans Pro", "Segoe UI", "Helvetica Neue", "Arial";
+    font-size: 15px;
+    display: inline-block;
+    padding: 5px 15px;
+    
+}
+
+.article-contant{
+    width: 100%;
+    display: inline-block;
+    padding: 0px 10px;
+    margin: 0px 5px;
+    
+}
+
+.article-bogs{
+    display: flex;
+    margin: 15px 10px;
+}
+
+.cntnt{
+    display: inline-block;
+    font-family:"Source Sans Pro", "Segoe UI", "Helvetica Neue", "Arial"; ;
+    margin-left: 10px;
+    padding: 0px 10px;
+}
+
+/*--article section end--*/
+/*--stories section start--*/
+
+.stories{
+    width: 100%;
+    display: flex;
+}
+
+.stories-article{
+    width: 50%;
+    display: inline-block;
+    padding: 20px 20px;
+    margin: 10px 5px;
+}
+
+.stories-article h2{
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Arial";
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.stories-article h3{
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Arial";
+    font-size: 22px;
+    font-weight: 700;
+    display: inline-block;
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
+
+.stories-article p{
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Arial";
+    font-size: 15px;
+    font-weight: 400;
+    color: #212529;
+    display: inline-block;
+    padding: 2px 0px;
+    margin: 2px 0px;
+}
+
+.popular{
+    width: 25%;
+    display: inline-block;
+    padding: 15px 10px;
+    margin-top: 18px;
+    margin-left: 10px;
+    margin-right: 0px;
+    
+}
+
+.popular-img{
+    display: inline-block;
+    padding: 0px 20px;
+    margin: 0px 10px;
+    
+}
+
+.img-p{
+    margin: 30px 10px;
+}
+
+.popular-blog h2{
+    width: 37.5%;
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Arial";
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 10px;
+    display: inline-block;
+}
+
+.p-blogs{
+    display: inline-block;
+}
+
+.p-blog{
+    display: flex;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+.p-blog h2{
+    font-family: "Source Sans Pro", "Segoe UI", "Helvetica Neue", "Arial";
+    font-size: 42px;
+    font-weight: 700;
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.p-blog h3{
+    font-family:"Source Sans Pro", "Segoe UI", "Helvetica Neue", "Arial";
+    font-size: 20px;
+    font-weight: 400;
+    display: inline-block;
+}
+
+/*--stories section end--*/
+/*--footer section start--*/
+
+footer{
+    width: 100%;
+    display: flex;
+}
+
+.footer-1{
+    width: 50%;
+    display: flex;
+}
+
+.footer-1 h2{
+    font-family:"Playfair Display", "Segoe UI", "Helvetica Neue", "Arial";
+    font-size: 20px;
+    font-weight: 700;
+    display: inline-block;
+    padding: 20px 20px;
+    margin: 20px 20px;
+}
+
+.footer-1 p{
+    font-family:"Playfair Display", "Segoe UI", "Helvetica Neue", "Arial";
+    font-size: 15px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 25px 5px;
+    margin: 25px 5px;
+}
+
+.footer-2{
+    width: 100%;
+    display: inline-block;
+    text-align: right;
+}
+
+.footer-2 p{
+    width: 50%;
+    font-family:"Playfair Display", "Segoe UI", "Helvetica Neue", "Arial";
+    font-size: 15px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 25px 100px;
+    margin: 25px 100px;
+    
+}
+
+.footer-img{
+    display: inline-block;
+    text-align: center;
+    padding: 20px 10px;
+    margin: 20px 10px;
+}
+
